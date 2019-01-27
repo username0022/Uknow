@@ -1376,3 +1376,10 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+.cid-rgnmY9SuM4 {
+  background-image: url("../../../assets/images/mbr-1920x1026.jpg");
+}
+.cid-rgnmY9SuM4 .mbr-text,
+.cid-rgnmY9SuM4 .mbr-section-btn {
+  text-align: left;
+}

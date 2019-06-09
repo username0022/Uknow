@@ -1,46 +1,47 @@
 {
   "settings": {
-    "name": "Uknow",
+    "name": "Uknow site",
     "currentPage": "index.html",
     "theme": {
-      "name": "clarus",
-      "title": "Clarus",
+      "name": "direct-m",
+      "title": "DirectM на русском",
       "styling": {
-        "primaryColor": "#fac51c",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
+        "primaryColor": "#ffd785",
+        "secondaryColor": "#ffd785",
+        "successColor": "#ffd785",
+        "infoColor": "#fffffd",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
         "titleFont": "Montserrat",
         "subtitleFont": "Montserrat",
         "textFont": "Montserrat",
-        "isRoundedButtons": false
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#989898"
+        "#1e7c3a",
+        "#084a6e"
       ]
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.9.7",
+    "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 9,
-    "versionPublish": "4.10.3",
-    "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/minlogo-1-128x128.png",
     "noImageResize": "",
-    "scrollAnimation": "true",
     "cookiesAlert": "",
     "gdpr": "",
-    "siteUrl": "undefined",
     "google-analytics": "",
-    "seo-meta": ""
+    "siteUrl": "undefined",
+    "seo-meta": "",
+    "uniqCompNum": 10,
+    "versionPublish": "4.10.3"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "w-port",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -48,385 +49,204 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#fffffd"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fffffd"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fffffd",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#fffffd"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#2d2d2d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#252525!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2d2d2d"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fffffd",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffd785!important"
+            },
+            ".navbar-caption": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "36px"
+            }
+          },
           "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "5",
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2d2d2d",
+            "fontSize": "1.1",
+            "imageSize": "4",
+            "fontName": {
+              "name": "Montserrat",
+              "css": "'Montserrat', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "fontColor": "#fffffd",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Проекты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Невероятные Планктоны</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Проекты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/log-1-369x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Uknow</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-4"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "text-align": "center",
+              "color": "#fffffd"
+            },
+            ".heading-text": {
+              "text-align": "center",
+              "color": "#fffffd"
+            }
+          },
+          "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1282.jpg",
+            "contentAlign": "center",
+            "showArrow": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "containerColor1": "#000000",
+            "containerColor2": "#424242",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.7
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
           },
-          "title": "<span>Ребрендинг!</span>",
-          "text": "<br>сайт на обновлении<br>",
-          "buttons": "<a data-app-btn=\"true\" href=\"res.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-2",
-          "_styles": {
-            "H1": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center",
-              "color": "#989898"
-            },
-            "SPAN": {
-              "font-size": "80px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          }
-        }
-      ]
-    },
-    "res.html": {
-      "settings": {
-        "title": "апгрейды)))",
-        "order": 2
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#989898"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#989898"
-            },
-            ".link, .dropdown-item": {
-              "color": "#989898"
-            },
-            ".link": {
-              "font-size": "0.9rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.975rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#fff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#080808"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#1a1a1a!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#222"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#989898",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#fff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fff!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#222",
-            "fontSize": "0.9",
-            "fontName": {
-              "name": "Montserrat",
-              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "css": "'Montserrat', sans-serif"
-            },
-            "fontColor": "#989898",
-            "fontHoverColor": "#fff"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"res.html\">про обновление сайта</a></li>",
-          "logo": {
-            "image": {
+          "title": "<b>Ребрендинг</b>",
+          "text": "Новое имя",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/package-1f4e6-128x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "",
-              "title": ""
+              "class": "mbr-iconfont",
+              "name": "mobirise",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
             }
           },
-          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://www.instagram.com/marty_mfl/\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCb855tZCMAwduWGKxHPcaoA\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>   ",
-          "contacts": "<a data-app-btn=\"true\" href=\"https://vk.com/wickedask\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\" target=\"_blank\"><span class=\"socicon socicon-vkontakte mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Wicked Box</a><a data-app-btn=\"true\" href=\"mailto:wiwi.sent@gmail.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>wiwi.sent@gmail.com</a>",
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "menu2",
-          "_anchor": "menu2-3"
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "showTitle": true,
-            "showText": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#333333",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "Что делаеться?",
-          "text": "Работаем над апгрейдами",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "text1",
-          "_anchor": "text1-4",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "Мне необходимо переделать свой сайт для более комфортной классификации контента. Появяться более удобные разделы, страници проектов и прочее. Собственно такая небольшая реформа как раз связана с появлением жтих самых проектов. Так-же наконец добавится системма заказов и вполне читаемый блог! Так что ждём апгрейд и надеемся что я не сольюсь)",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "article2",
-          "_anchor": "article2-5",
-          "_styles": {
-            "P": {
-              "color": "#333333"
-            }
-          }
-        },
-        {
-          "_params": {
-            "_customHTML": "<script type=\"text/javascript\" src=\"https://vk.com/js/api/openapi.js?160\"></script>\n\n<!-- VK Widget -->\n<div id=\"vk_groups\"></div>\n<script type=\"text/javascript\">\nVK.Widgets.Group(\"vk_groups\", {mode: 4, wide: 1, width: \"1000\", height: \"1000\"}, -303005801);\n</script>",
-            "_customCSS": "",
-            "bgImageRadio": false,
-            "bgImage": "http://home.scarlet.be/patrickdegand/assets/images/thumbnail-128x128-4.png",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff"
-          },
-          "_customHTML": "<script type=\"text/javascript\" src=\"https://vk.com/js/api/openapi.js?160\"></script>\n\n<!-- VK Widget -->\n<div id=\"vk_groups\"></div>\n<script type=\"text/javascript\">\nVK.Widgets.Group(\"vk_groups\", {mode: 4, wide: 1, width: \"1000\", height: \"1000\"}, -303005801);\n</script>",
-          "_customCSS": "",
-          "alias": "deltapieditor",
-          "_tags": [
-            "Расширения"
-          ],
-          "_name": "deltapieditor",
-          "_anchor": "deltapieditor-6"
-        }
-      ]
-    },
-    "incplank.html": {
-      "settings": {
-        "title": "Планктоны",
-        "order": 1
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#989898"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#989898"
-            },
-            ".link, .dropdown-item": {
-              "color": "#989898"
-            },
-            ".link": {
-              "font-size": "0.9rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.975rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#fff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#080808"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#1a1a1a!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#222"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#989898",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#fff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fff!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#222",
-            "fontSize": "0.9",
-            "fontName": {
-              "name": "Montserrat",
-              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "css": "'Montserrat', sans-serif"
-            },
-            "fontColor": "#989898",
-            "fontHoverColor": "#fff"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"res.html\">про обновление сайта</a></li>",
-          "logo": {
-            "image": {
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/package-1f4e6-128x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "",
-              "title": ""
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
             }
           },
-          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://www.instagram.com/marty_mfl/\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCb855tZCMAwduWGKxHPcaoA\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>   ",
-          "contacts": "<a data-app-btn=\"true\" href=\"https://vk.com/wickedask\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\" target=\"_blank\"><span class=\"socicon socicon-vkontakte mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Wicked Box</a><a data-app-btn=\"true\" href=\"mailto:wiwi.sent@gmail.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span>wiwi.sent@gmail.com</a>",
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "menu2",
-          "_anchor": "menu2-7"
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": "6",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/new-pl-model-frame-0-1920x1080.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "title": "Здесь обитают Планктоны",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi. In a diam vehicula sed sollicitudin mattis",
-                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/new-pl-model-frame-2-1920x1080.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "title": "Но пока-что",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "сайт только создаёться. Прийдётся немного потерпеть.",
-                "buttons": "<a data-app-btn=\"true\" href=\"res.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/new-pl-model-frame-3-1920x1080.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "title": "",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "",
-                "buttons": "<a data-app-btn=\"true\" href=\"res.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/new-pl-model-frame-4-1920x1080.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
-                "title": "",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "",
-                "buttons": "<a data-app-btn=\"true\" href=\"res.html\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Подробнее</a>",
-                "alt": ""
-              }
-            ]
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
           },
-          "articleLayout": false,
-          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
-          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg",
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Тема"
           ],
@@ -434,6 +254,13 @@
           "_anchor": "header2-8"
         }
       ]
+    },
+    "incplank.html": {
+      "settings": {
+        "title": "Невероятные Планктоны",
+        "order": 1
+      },
+      "components": []
     }
   }
 }

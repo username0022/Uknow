@@ -532,11 +532,11 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 #menu1-4 .link {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 #menu1-4 .dropdown-item,
 #menu1-4 .nav-dropdown-sm .link {
-  font-size: 1.191rem;
+  font-size: 1.300rem;
 }
 #menu1-4 .link:hover,
 #menu1-4 .link:focus {
@@ -603,4 +603,34 @@ a:hover {
 #header2-8 .heading-text {
   text-align: center;
   color: #fffffd;
+}
+#features8-i .mbr-iconfont {
+  color: #ffd785;
+  border-color: #ffd785;
+}
+#features8-i .heading-text {
+  color: #000000;
+}
+#content1-m P {
+  text-align: center;
+  font-size: 17px;
+  color: #000000;
+}
+#msg-box5-k .mbr-section-title {
+  color: #fff;
+  line-height: 1;
+}
+#msg-box5-k .round-text {
+  color: #fff;
+}
+#msg-box5-k H1 {
+  color: #000000;
+}
+#header5-c .mbr-section-title,
+#header5-c .mbr-section-subtitle {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+#header5-c .mbr-table-cell {
+  vertical-align: middle;
 }

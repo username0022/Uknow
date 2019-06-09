@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -52,7 +52,7 @@ cite,
   font-family: 'Montserrat', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
@@ -60,7 +60,7 @@ cite,
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
 /*SUBTITLE*/
@@ -72,7 +72,7 @@ cite,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block,
 .caption {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
 /*TEXT*/
@@ -83,11 +83,11 @@ p,
 li,
 .mbr-gallery-filter ul li span,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 /*ROUNDED BUTTONS*/
 /*COLORS*/
@@ -487,76 +487,16 @@ a:hover,
 .mbr-gallery-filter li:hover {
   color: #fac51c;
 }
-#menu2-1 .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu2-1 .navbar-caption {
-  color: #ffffff;
-}
-#menu2-1 .navbar-toggler {
-  color: #989898;
-}
-#menu2-1 .close-icon::before,
-#menu2-1 .close-icon::after {
-  background-color: #989898;
-}
-#menu2-1 .link,
-#menu2-1 .dropdown-item {
-  color: #989898;
-}
-#menu2-1 .link {
-  font-size: 0.9rem;
-}
-#menu2-1 .dropdown-item,
-#menu2-1 .nav-dropdown-sm .link {
-  font-size: 0.975rem;
-}
-#menu2-1 .link:hover,
-#menu2-1 .dropdown-item:hover,
-#menu2-1 .link:focus,
-#menu2-1 .dropdown-item:focus {
-  color: #fff;
-}
-#menu2-1 .link[aria-expanded="true"],
-#menu2-1 .dropdown-menu {
-  background: #080808;
-}
-#menu2-1 .nav-dropdown-sm .link:focus,
-#menu2-1 .nav-dropdown-sm .link:hover,
-#menu2-1 .nav-dropdown-sm .dropdown-item:focus,
-#menu2-1 .nav-dropdown-sm .dropdown-item:hover {
-  background: #1a1a1a!important;
-}
-#menu2-1 .navbar,
-#menu2-1 .nav-dropdown-sm,
-#menu2-1 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu2-1 .nav-dropdown-sm .dropdown-menu {
-  background: #222;
-}
-#menu2-1 .bg-color.transparent .link {
-  color: #989898;
-  transition: none;
-}
-#menu2-1 .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu2-1 .bg-color.transparent.opened .link:hover,
-#menu2-1 .bg-color.transparent.opened .link:focus {
-  color: #fff;
-}
-#menu2-1 .link[aria-expanded="true"],
-#menu2-1 .dropdown-item[aria-expanded="true"] {
-  color: #fff!important;
-}
 #header6-2 H1 {
-  text-align: left;
+  text-align: center;
 }
 #header6-2 P {
-  text-align: left;
+  text-align: center;
   color: #989898;
 }
 #header6-2 SPAN {
   font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu2-3 .hide-buttons .nav-btn {
   display: none !important;

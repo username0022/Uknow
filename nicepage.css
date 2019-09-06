@@ -25049,16 +25049,15 @@ blockquote {
 
 
 /*end-variables sitestylecss*/
- .u-header {background-image: none}
-.u-header .u-sheet-1 {min-height: 72px}
-.u-header .u-image-1 {margin: 20px auto 0 0}
-.u-header .u-logo-image-1 {max-width: 64px; max-height: 64px}
-.u-header .u-menu-1 {margin: -32px 0 20px auto}
+ .u-header .u-sheet-1 {min-height: 132px}
+.u-header .u-image-1 {margin: 20px auto 15px}
+.u-header .u-logo-image-1 {max-width: 80px; max-height: 80px}
+.u-header .u-menu-1 {margin: 20px auto 15px}
 .u-header .u-nav-2 {font-size: 1.25rem} 
-@media (max-width: 1199px){ .u-header .u-image-1 {width: 53px; height: 32px} }
-@media (max-width: 991px){ .u-header .u-image-1 {width: 40px} }
+@media (max-width: 1199px){ .u-header .u-image-1 {width: 66px; height: 40px} }
+@media (max-width: 991px){ .u-header .u-image-1 {width: 51px} }
 @media (max-width: 767px){ .u-header .u-sheet-1 {min-height: auto}
-.u-header .u-image-1 {width: 38px} }
+.u-header .u-image-1 {width: 47px} }
 
  .u-footer .u-sheet-1 {min-height: 133px}
 .u-footer .u-group-1 {min-height: 133px; width: 570px; margin: 0 auto}

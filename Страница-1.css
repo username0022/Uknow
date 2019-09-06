@@ -43,8 +43,8 @@
 .u-section-2 .u-text-1 {font-weight: 900; line-height: 1.5; margin: 105px 0 0}
 .u-section-2 .u-layout-cell-2 {min-height: 372px}
 .u-section-2 .u-container-layout-2 {padding-left: 20px}
-.u-section-2 .u-text-2 {margin: 28px 20px 0 0}
-.u-section-2 .u-btn-1 {text-transform: uppercase; font-weight: 800; font-size: 0.875rem; margin: 20px auto 28px 0} 
+.u-section-2 .u-text-2 {margin: 105px 20px 0 0}
+.u-section-2 .u-btn-1 {text-transform: uppercase; font-weight: 800; font-size: 0.875rem; margin: 20px auto 0 0} 
 
 @media (max-width: 1199px){ .u-section-2 .u-sheet-1 {min-height: 523px}
 .u-section-2 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}

@@ -1,36 +1,246 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eickme.ga" resolutions="1x" timestamp="1573421884785">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wickme.ga" resolutions="1x" timestamp="1573994539030">
+  <folder name="assets">
+    <file name="отштшош.mov" crc="3898760655" seo="true" mt="1556114640000"/>
+    <file name="4dribble.gif" crc="4213486094" seo="true" mt="1549201153000"/>
+    <file name="gohoh.mov" crc="310873366" seo="true" mt="1573385461000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="287849378" ref="index"/>
+    <file name="index.css" crc="4224463131" ref="index"/>
+    <file name="animation.css" crc="4140172814" ref="animation"/>
+    <file name="develop.css" crc="4140172814" ref="develop"/>
+    <file name="plank-ink.css" crc="4233200379" ref="plank-ink"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3803043152" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4153641093" ref="index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index"/>
-    <file name="webpro.js" crc="242022427" ref="index"/>
-    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
-    <file name="touchswipe.js" crc="4066113679" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:develop:animation:plank-ink"/>
+    <file name="museutils.js" crc="3803043152" ref="index:develop:animation:plank-ink"/>
+    <file name="whatinput.js" crc="86476730" ref="index:develop:animation:plank-ink"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:develop:animation:plank-ink"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:develop:animation:plank-ink"/>
+    <file name="webpro.js" crc="242022427" ref="index:plank-ink"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index:plank-ink"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index:plank-ink"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index:plank-ink"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index:plank-ink"/>
+    <file name="require.js" crc="4157109226" ref="index:develop:animation:plank-ink"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:plank-ink"/>
     <file name="amno5dvbh.png" crc="329166012" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="amno5dvbh — копия.png" crc="509624893" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index:plank-ink"/>
     <file name="jiooo.png" crc="4035317896" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="wicktitle.png" crc="4061644687" seo="true" ref="index">
+    <file name="wicktitle.png" crc="20236404" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="wick-favicon.ico" crc="301448562" ref="index"/>
+    <file name="moshed-2019-11-2-20-39-47.gif" crc="254695662" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ezgif-4-6adb8c9b90c7.gif" crc="3863137033" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ovjneopfef.png" crc="29300484" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4sylmnbhsak.jpg" crc="4121793742" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="candy for dogs.jpg" crc="4230155873" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="axt2xrywo_g.jpg" crc="3972805500" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="84x-0cxjerc.jpg" crc="4245023553" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bim5kztkvyg.jpg" crc="17750254" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="moshed-2019-11-17-0-52-23.gif" crc="206005823" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="stay.png" crc="289167659" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tilesetww.png" crc="4246372510" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="yioмонтажная-область-1.png" crc="114002886" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="монтажная область 1.png" crc="3765560769" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bigcoin.png" crc="4066729021" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smalcoin.png" crc="3779871760" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="amaking.png" crc="263024390" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ojerelie.png" crc="4280879977" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bible.png" crc="36680533" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1-crop-u964.jpg" crc="3897264003" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="2-crop-u2718.jpg" crc="487863152" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="3-crop-u2738.jpg" crc="103602049" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="4-crop-u2758.jpg" crc="3921844099" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="5-crop-u2778.jpg" crc="534091732" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="6-crop-u2798.jpg" crc="4232179188" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="7-crop-u2818.jpg" crc="53891210" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="8-crop-u2838.jpg" crc="198597446" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="9-crop-u2858.jpg" crc="4130340411" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="10-crop-u2878.jpg" crc="477962813" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="11-crop-u2898.jpg" crc="4057034075" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="12-crop-u2918.jpg" crc="3913944420" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="13-crop-u2938.jpg" crc="3869448395" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="14-crop-u2958.jpg" crc="119283573" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="15-crop-u2978.jpg" crc="4198415508" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="16-crop-u2998.jpg" crc="410887338" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="17-crop-u3018.jpg" crc="4238613688" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="18-crop-u3038.jpg" crc="3854168641" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="19-crop-u3058.jpg" crc="3859452537" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="20-crop-u3078.jpg" crc="3910018293" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="21-crop-u3098.jpg" crc="3820486733" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="22-crop-u3118.jpg" crc="3883903118" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="23-crop-u3138.jpg" crc="476009510" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="24-crop-u3158.jpg" crc="365191558" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="25-crop-u3178.jpg" crc="509041609" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="26-crop-u3198.jpg" crc="154920605" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="27-crop-u3218.jpg" crc="228968314" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="28-crop-u3238.jpg" crc="4119832873" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="29-crop-u3258.jpg" crc="3775995331" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="30-crop-u3278.jpg" crc="4158924739" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="31-crop-u3298.jpg" crc="3899760228" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="32-crop-u3318.jpg" crc="393796823" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="33-crop-u3338.jpg" crc="4229540413" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="34-crop-u3358.jpg" crc="240402254" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="35-crop-u3378.jpg" crc="532379536" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="36-crop-u3398.jpg" crc="3877094398" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="37-crop-u3418.jpg" crc="4001744526" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="38-crop-u3438.jpg" crc="3784806351" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="39-crop-u3458.jpg" crc="3873824282" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="40-crop-u3478.jpg" crc="523772425" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="41-crop-u3498.jpg" crc="4089826879" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="42-crop-u3518.jpg" crc="4212081175" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="43-crop-u3538.jpg" crc="372031862" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="44-crop-u3558.jpg" crc="6478607" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="45-crop-u3578.jpg" crc="4246118318" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="46-crop-u3598.jpg" crc="113726177" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="47-crop-u3618.jpg" crc="222114663" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
+    <file name="48-crop-u3638.jpg" crc="3801371474" seo="true" ref="plank-ink">
+      <caption webpage="plank-ink" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3896751181" seo="true" mt="1573421802436" redirect="true"/>
+  <file name="index.html" crc="41085436" seo="true" mt="1573994452628" redirect="true"/>
+  <file name="develop.html" crc="356578053" seo="true" mt="1573496897047" redirect="false"/>
+  <file name="animation.html" crc="33413732" seo="true" mt="1573496919066" redirect="false"/>
+  <file name="plank-ink.html" crc="3899018565" seo="true" mt="1573930664633" redirect="true"/>
 </manifest>
